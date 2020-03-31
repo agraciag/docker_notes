@@ -1,5 +1,9 @@
 docker --version
 
+docker ps shows running instances
+
+docker images
+
 ## List containers
 $ docker container ls [OPTIONS]
 * --all , -a		Show all containers (default shows just running)
