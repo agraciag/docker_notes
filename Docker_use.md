@@ -14,6 +14,7 @@ $ docker container ls [OPTIONS]
 ## INSTALL MYSQL
 1-- Pull image
 * $ docker pull mysql
+
 2-- Start mysql server instance
 * $ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
   *some-mysql is the name you want to assign to your container
