@@ -1,6 +1,6 @@
 docker --version
 
-List containers
+## List containers
 $ docker container ls [OPTIONS]
 --all , -a		Show all containers (default shows just running)
 --filter , -f		Filter output based on conditions provided
@@ -11,7 +11,7 @@ $ docker container ls [OPTIONS]
 --quiet , -q		Only display numeric IDs
 --size , -s		Display total file sizes
 
-INSTALL MYSQL
+##INSTALL MYSQL
 1-- Pull image
 $ docker pull mysql
 2-- Start mysql server instance
