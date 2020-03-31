@@ -17,6 +17,7 @@ $ docker container ls [OPTIONS]
 
 2-- Start mysql server instance
 * $ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
-  *some-mysql is the name you want to assign to your container
-  *my-secret-pw is the password to be set for the MySQL root user
-  *tag is the tag specifying the MySQL version you want.
+
+* some-mysql is the name you want to assign to your container
+* my-secret-pw is the password to be set for the MySQL root user
+* tag is the tag specifying the MySQL version you want.
