@@ -13,7 +13,8 @@ $ docker container ls [OPTIONS]
 
 ## INSTALL MYSQL
 1-- Pull image
-* $ docker pull mysql
+
+$ docker pull mysql
 
 2-- Start mysql server instance
 
